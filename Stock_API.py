@@ -3,7 +3,7 @@ import requests
 class StockPortfolio:
     def __init__(self):
         self.stocks = {}
-        self.api_key = 'RLIC6VG1W60VB2IH'
+        self.api_key = 'RLIC6VG1W60VB2IH' #This API key is a free API key obtained online
 
     def add_stock(self, ticker, shares):
         if ticker in self.stocks:
